@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video Player</title>
+        <link rel="icon" type="x-icon" href="http://172.16.102.249/app/images/title-icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="http://172.16.102.249/app/index.css?1422585377">
+        <link href="https://fonts.googleapis.com/css?family=Abel|Inconsolata|Indie+Flower|Karla|Open+Sans+Condensed:300|Roboto+Mono|ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    </head>
+
+    <body>
+        <main>
+            <section id="project-banner" class="index-banner">
+                <div class="vertical-center">
+                    <h2 class="animated swing">Test Stream Rail Title</h2>
+                </div>
+            </section><br>
+            <div class="wrapper">
+                <section class="index-links">
+                        <button id="dashLiveButton" onclick="redirectToDashPlayer()">DASH Live<span class="live-text">LIVE</span></button>
+                        <button id="shakaLiveButton" onclick="redirectToShakaPlayer()">SHAKA Live<span class="live-text">LIVE</span></button>
+                        <button id="hlsLiveButton" onclick="redirectToHlsLivePlayer()">HLS Live<span class="live-text">LIVE</span></button>
+                        <button id="hlsVodButton" onclick="redirectToHlsPlayer()">HLS VoD</button>
+                        <button id="dashVodButton" onclick="redirectToDashVODPlayer()">DASH VoD</button>
+                        <button id="shakaVodButton" onclick="redirectToShakaVODPlayer()">SHAKA VoD</button>
+                </section> <br><br>
+                <div>
+                    <h3>Test ABR/Audio Stream</h3><br>
+                    <button id="dashABRButton" onclick="redirectToDashABRPlayer()">Play ABR Stream DASH <span class="abr-text">ABR</span></button>
+                    <button id="shakaABRButton" onclick="redirectToShakaABRPlayer()">Play ABR Stream Shaka <span class="abr-text">ABR</span></button>
+                </div>
+            </div>
+        </main>
+        <script type="text/javascript"src="./index.js"></script>
+    </body>
+</html>

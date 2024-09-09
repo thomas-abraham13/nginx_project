@@ -1,0 +1,420 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+.popup {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+body {
+    line-height: 1
+}
+
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* Change colors based on requirements */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Change colous based on requirements */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Change colors based on requirements */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+main {
+    padding-top: 100px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+header .brand {
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    /* background-image:url("https://media3.giphy.com/media/BHNfhgU63qrks/giphy.gif");  */
+    background-image: url("https://media.giphy.com/media/7T8uLiWEsnytWkQKvF/giphy.gif?cid=790b761161b3ohtqfowrew8wrfh3qyf434r9uauvdgleft88&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.index-banner h2 {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+    text-shadow: 2px 2px #111;
+    font-family: "Karla", sans-serif;
+}
+
+.index-banner h1 {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    line-height: 40px;
+    font-style: italic;
+    text-shadow: 1px 1px #111;
+    font-family: "Indie Flower", cursive;
+}
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-links div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+    border-left: 1px solid black;
+}
+
+.index-links div h3 {
+    font-size: 20px;
+    color: #111;
+    text-align: center;
+    font-weight: 300;
+    line-height: 100px;
+    font-family: "Inconsolata", monospace;
+}
+
+.author-article {
+    padding: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .index-banner {
+        height: 525px;
+    }
+
+    .index-banner h1 {
+        display: block;
+        width: 560px;
+        margin: 0 auto;
+    }
+
+    .index-links {
+        overflow: hidden;
+    }
+    .index-links div {
+        margin: 20px 10px 0;
+        height: 230px;
+        background-color: #f2f2f2;
+        float: left;
+    }
+    .index-box-square {
+        width: calc(25% - 20px) !important;
+    }
+    .index-box-rectangle {
+        width: calc(50% - 20px) !important;
+    }
+    .index-links div h3 {
+        line-height: 230px;
+    }
+}
+
+#square1 {
+    border-left-color: hotpink;
+}
+
+#square2 {
+    border-left-color: hotpink;
+}
+
+#square3 {
+    border-left-color: hotpink;
+}
+
+footer {
+    width: calc(100%- 80px);
+    padding: 40px 40px;
+    background-color: #111;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tab content {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+:root {
+    --button-width: 256px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    padding: 32px;
+}
+
+button {
+    position: relative;
+    width: var(--button-width);
+    height: calc(var(--button-width) / 2);
+}
+
+.live-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    /* Ensure it's above the button text */
+    z-index: 1;
+}
+
+.abr-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: green;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    /* Ensure it's above the button text */
+    z-index: 1;
+}
+
+.video-container_controls {
+    position: absolute;
+    top: 3px;
+    /* bottom: 3px; */
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    justify-content: right;
+    background: linear-gradient(180deg, #000000 30%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 1) 100%);
+}
+
+video {
+    width: 100%;
+}
