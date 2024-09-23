@@ -195,7 +195,7 @@ From the VLC Media Player Playlist, double click the newly added URL and you sho
 
 So if we want to view the stream in a browser, there’s a couple of things we’ll need to set up starting with transmux of the rtmp stream into a format the open source players like Dash/Shaka can support:
 
-Transmuxing is the process of changing the delivery format for video and audio without encoding or transcoding the original content - taken from [Transcoding](https://www.notion.so/Transcoding-ded0a6357d5d49d1827b17c9b45b19bd?pvs=21) 
+Transmuxing is the process of changing the delivery format for video and audio without encoding or transcoding the original content
 
 ## Update conf
 
